@@ -14,6 +14,6 @@ test('login dengan password salah', async ({ page }) => {
     await page.fill('#email', 'user@contoh.com');
     await page.fill('#password', 'PasSalah');
     await page.click('#login-btn');
-
+    
     await expect(page.locator('.error-message')).toContainText('Kredential tidak valid');
 })
