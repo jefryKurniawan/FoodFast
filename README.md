@@ -165,6 +165,7 @@ Hasil Tes
 |Generate VA|:white_check_mark: Passed|-|
 |Notifikasi Email|:exclamation: Partial|Terkirim tapi delay 5 menit|
 
-Ringkasan
-Pass Rate: 85% (17/20 test passed)
-Critical Bugs Found: 2
+### Ringkasan
+
+**Pass Rate:** 85% (17/20 test passed)
+**Critical Bugs Found:** 2
